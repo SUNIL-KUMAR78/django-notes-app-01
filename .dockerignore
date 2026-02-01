@@ -1,0 +1,24 @@
+# Ignore git
+.git
+.gitignore
+
+# Ignore Jenkins
+workspace
+*.log
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtualenv
+venv/
+.env
+
+# Ignore database files (THIS FIXES YOUR ERROR)
+data/
+mysql/
+*.db
+*.sqlite3
+
+# Ignore Docker leftovers
+*.sock
