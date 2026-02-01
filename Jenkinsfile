@@ -15,6 +15,7 @@ pipeline {
             steps {
                 script {
                     clone('https://github.com/SUNIL-KUMAR78/django-notes-app-01.git','main')
+                    echo 'Code Cloning Successful'
                 }
             }
         }
